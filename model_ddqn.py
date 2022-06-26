@@ -4,11 +4,11 @@ import torch.optim as optim
 
 class ConvModel(nn.Module):
     def __init__(self, obs_shape, num_actions, lr=0.0001):
-        assert len(obs_shape) == 3  # channel, height, and width
+        assert len(obs_shape) == 3 
         super(ConvModel, self).__init__()
         self.obs_shape = obs_shape
         self.num_actions = num_actions
-        # canonical input shape = 84x84
+        
         self.conv_net = torch.nn.Sequential(
             torch.nn.Conv2d(4, 16, (8, 8), stride=(4, 4)),
             torch.nn.ReLU(),
@@ -30,7 +30,7 @@ class ConvModel(nn.Module):
         self.opt = optim.Adam(self.parameters(), lr=lr)
 
     def forward(self, x):
-        conv_latent = self.conv_net(x/255.0)  # shape: (N, )
+        conv_latent = self.conv_net(x/255.0) 
         return self.fc_net(conv_latent.view((conv_latent.shape[0], -1)))
 
 
