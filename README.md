@@ -32,14 +32,17 @@ eps_decay=0.999999
 seed=1  
 epoch=3000  
 eps_min=0.01  
-tgt_update=3000  
-<train reward>  
-<img width="80%" src="https://user-images.githubusercontent.com/88640075/175803030-0b2f25be-ad0c-4582-b535-7300e909c740.png"/>
+tgt_update=3000 
 
+> train reward
+<img width="60%" src="https://user-images.githubusercontent.com/88640075/175803030-0b2f25be-ad0c-4582-b535-7300e909c740.png"/>
 
-![pong_dqn](https://user-images.githubusercontent.com/88640075/175803027-97039c70-ff1d-4e9d-bf47-6609bdd5bd47.png)  
+> test reward
+<img width="60%" src="https://user-images.githubusercontent.com/88640075/175803027-97039c70-ff1d-4e9d-bf47-6609bdd5bd47.png"/>
+ 
+> loss
+<img width="60%" src="https://user-images.githubusercontent.com/88640075/175803028-3fb74513-cf24-4b6d-ab99-2446c6826413.png"/>
 
-![pong_dqn_loss](https://user-images.githubusercontent.com/88640075/175803028-3fb74513-cf24-4b6d-ab99-2446c6826413.png)  
 
  
 
