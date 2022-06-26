@@ -17,11 +17,10 @@ class ReplayBuffer:
         self.idx += 1
 
     def sample(self, num_samples):
-        assert num_samples < min(self.idx, self.buffer_size)
-        # if num_samples > min(self.idx, self.buffer_size):
-        if self.idx < self.buffer_size:
-            return sample(self.buffer[: self.idx], num_samples)
-        return sample(self.buffer, num_samples)
+        if num_samples < min(self.idx, self.buffer_size):
+            if self.idx < self.buffer_size:
+                return sample(self.buffer[: self.idx], num_samples)
+            return sample(self.buffer, num_samples)
 
 
 
