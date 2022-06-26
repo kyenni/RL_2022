@@ -25,6 +25,19 @@ wandb
 
 <img width="60%" src="https://user-images.githubusercontent.com/88640075/175809339-38998efd-6ac1-4334-8fcd-b6ce505c9ac2.png">
 
+# Code structure
+__model_ddqn.py__
+Q-network 구조 정의  
+
+__utils_ddqn.py__
+Input resizing 처리된 env 선언
+
+__replaybuffer.py__
+replay buffer sampling,insert 정의
+
+__main.py__
+train dqn, train ddqn의 학습과정과 테스트과정을 정의하고, target network 업데이트 정의  
+
 
 # Experiment & Result
 * Optimizer : Adam
