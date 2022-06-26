@@ -26,7 +26,7 @@ wandb
 <img width="60%" src="https://user-images.githubusercontent.com/88640075/175809339-38998efd-6ac1-4334-8fcd-b6ce505c9ac2.png">
 
 
-# Experiment
+# Experiment & Result
 * Optimizer : Adam
 * Input : 84x84x4  
 210x160x3 사이즈의 입력을 84x84로 size 변경 후, 4개의 frame을 입력으로 사용
@@ -116,7 +116,6 @@ __loss__
 
 # 한계점
 * score가 점진적으로 증가하지 않고 지속적으로 변동이 심하여 수렴하는 형태를 보이지 않음
-* dqn에 비해 double dqn이 불안정한 학습을 보여서 지속할 수가 없었음
-* gamma를 0.99에서 낮추거나 lr를 변경하여 시도해보았지만 더욱더 변동성이 커지는 모습을 보였음
-* 코드를 이해하느라 다른 게임에 대한 시도를 해보지 못하였음
+* dqn에 비해 double dqn이 불안정한 학습을 보여서 지속할 수 없었음
+* 코드로의 작성에 대한 이해부족으로 많은 게임에 대한 시도를 해보지 못하였음
 * 이론적으로는 이해하였음에도 코드로 공부가 더 필요하다고 느꼈음
