@@ -12,7 +12,13 @@ wandb
 
 ```
 # Model
-## DQN
+
+## Q-network
+* Deepmind의 deep reinforcement learning tutorial에서의 모델 구조를 참고   
+ >
+<img width="60%" src="https://user-images.githubusercontent.com/88640075/175806446-05ae242a-06bd-49ee-acb7-7434749d1985.png">   
+
+## DQN  
 
 ## Double DQN
 
