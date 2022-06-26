@@ -34,14 +34,18 @@ epoch=3000
 eps_min=0.01  
 tgt_update=3000 
 
+__Best score=10__
+<p align="center">
+<img src="https://user-images.githubusercontent.com/88640075/175805290-b38a4077-86d1-4f6a-bdc2-56df9bb360a9.gif">
+</p>
 
-> train reward
+__train reward__
 <img width="60%" src="https://user-images.githubusercontent.com/88640075/175803030-0b2f25be-ad0c-4582-b535-7300e909c740.png"/>
 
-> test reward
+__test reward__
 <img width="60%" src="https://user-images.githubusercontent.com/88640075/175803027-97039c70-ff1d-4e9d-bf47-6609bdd5bd47.png"/>
  
-> loss
+__loss__
 <img width="60%" src="https://user-images.githubusercontent.com/88640075/175803028-3fb74513-cf24-4b6d-ab99-2446c6826413.png"/>
 
 
