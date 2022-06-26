@@ -18,9 +18,12 @@ wandb
  >
 <img width="60%" src="https://user-images.githubusercontent.com/88640075/175806446-05ae242a-06bd-49ee-acb7-7434749d1985.png">   
 
-## DQN  
+## DQN    
+<img width="60%" src="https://user-images.githubusercontent.com/88640075/175809338-847a1bbb-80b1-408f-bbee-0b21eafbee48.png">  
 
-## Double DQN
+## Double DQN    
+
+<img width="60%" src="https://user-images.githubusercontent.com/88640075/175809339-38998efd-6ac1-4334-8fcd-b6ce505c9ac2.png">
 
 
 # Experiment
