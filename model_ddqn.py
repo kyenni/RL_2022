@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.optim as optim
 
 class ConvModel(nn.Module):
-    def __init__(self, obs_shape, num_actions, lr=0.0001):
+    def __init__(self, obs_shape, num_actions, lr):
         assert len(obs_shape) == 3 
         super(ConvModel, self).__init__()
         self.obs_shape = obs_shape
