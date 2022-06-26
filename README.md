@@ -22,7 +22,7 @@ gym 0.24.1
 210*160사이즈의 입력을 84*84로 size 변경 후, 4개의 frame을 입력으로 사용
 
 
-## PONG
+## PongDeterministic-v4
 ### Hyperparameters
 lr=0.001  
 batch_size=32  
@@ -33,6 +33,7 @@ seed=1
 epoch=3000  
 eps_min=0.01  
 tgt_update=3000 
+
 
 > train reward
 <img width="60%" src="https://user-images.githubusercontent.com/88640075/175803030-0b2f25be-ad0c-4582-b535-7300e909c740.png"/>
