@@ -33,7 +33,9 @@ seed=1
 epoch=3000  
 eps_min=0.01  
 tgt_update=3000  
-![pont_dqn](https://user-images.githubusercontent.com/88640075/175803030-0b2f25be-ad0c-4582-b535-7300e909c740.png)  
+<train reward>  
+<img width="80%" src="https://user-images.githubusercontent.com/88640075/175803030-0b2f25be-ad0c-4582-b535-7300e909c740.png"/>
+
 
 ![pong_dqn](https://user-images.githubusercontent.com/88640075/175803027-97039c70-ff1d-4e9d-bf47-6609bdd5bd47.png)  
 
